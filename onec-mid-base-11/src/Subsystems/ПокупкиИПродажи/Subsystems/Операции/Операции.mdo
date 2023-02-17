@@ -11,5 +11,6 @@
   <content>Document.ЗаказПокупателя</content>
   <content>Document.РеализацияТоваровУслуг</content>
   <content>InformationRegister.НАШ_СкидкиКонтрагенты</content>
+  <content>Document.НАШ_УстановкаСкидокКонтрагенты</content>
   <parentSubsystem>Subsystem.ПокупкиИПродажи</parentSubsystem>
 </mdclass:Subsystem>

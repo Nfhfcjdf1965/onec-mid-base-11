@@ -156,6 +156,10 @@
     <items xsi:type="form:FormField">
       <name>НАШ_Согласовано</name>
       <id>13</id>
+      <title>
+        <key>ru</key>
+        <value>Согласовано</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -231,31 +235,31 @@
     </extInfo>
   </items>
   <items xsi:type="form:Table">
-    <name>ТабличнаяЧасть</name>
-    <id>18</id>
+    <name>НАШ_Скидки</name>
+    <id>40</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ТабличнаяЧасть</segments>
+      <segments>Объект.НАШ_Скидки</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
-      <name>ТабличнаяЧастьНомерСтроки</name>
-      <id>31</id>
+      <name>НАШ_СкидкиНомерСтроки</name>
+      <id>53</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ТабличнаяЧасть.LineNumber</segments>
+        <segments>Объект.НАШ_Скидки.LineNumber</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ТабличнаяЧастьНомерСтрокиРасширеннаяПодсказка</name>
-        <id>33</id>
+        <name>НАШ_СкидкиНомерСтрокиРасширеннаяПодсказка</name>
+        <id>55</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -269,8 +273,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ТабличнаяЧастьНомерСтрокиКонтекстноеМеню</name>
-        <id>32</id>
+        <name>НАШ_СкидкиНомерСтрокиКонтекстноеМеню</name>
+        <id>54</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -293,8 +297,8 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ТабличнаяЧастьНАШ_Контрагент</name>
-      <id>34</id>
+      <name>НАШ_СкидкиНАШ_Контрагент</name>
+      <id>56</id>
       <title>
         <key>ru</key>
         <value>Контрагент</value>
@@ -305,11 +309,11 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ТабличнаяЧасть.НАШ_Контрагент</segments>
+        <segments>Объект.НАШ_Скидки.НАШ_Контрагент</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ТабличнаяЧастьНАШ_КонтрагентРасширеннаяПодсказка</name>
-        <id>36</id>
+        <name>НАШ_СкидкиНАШ_КонтрагентРасширеннаяПодсказка</name>
+        <id>58</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -323,8 +327,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ТабличнаяЧастьНАШ_КонтрагентКонтекстноеМеню</name>
-        <id>35</id>
+        <name>НАШ_СкидкиНАШ_КонтрагентКонтекстноеМеню</name>
+        <id>57</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -347,8 +351,8 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ТабличнаяЧастьНАШ_Скидка</name>
-      <id>37</id>
+      <name>НАШ_СкидкиНАШ_Скидка</name>
+      <id>59</id>
       <title>
         <key>ru</key>
         <value>Скидка</value>
@@ -359,11 +363,11 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ТабличнаяЧасть.НАШ_Скидка</segments>
+        <segments>Объект.НАШ_Скидки.НАШ_Скидка</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ТабличнаяЧастьНАШ_СкидкаРасширеннаяПодсказка</name>
-        <id>39</id>
+        <name>НАШ_СкидкиНАШ_СкидкаРасширеннаяПодсказка</name>
+        <id>61</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -377,8 +381,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ТабличнаяЧастьНАШ_СкидкаКонтекстноеМеню</name>
-        <id>38</id>
+        <name>НАШ_СкидкиНАШ_СкидкаКонтекстноеМеню</name>
+        <id>60</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -401,8 +405,8 @@
       </extInfo>
     </items>
     <autoCommandBar>
-      <name>ТабличнаяЧастьКоманднаяПанель</name>
-      <id>19</id>
+      <name>НАШ_СкидкиКоманднаяПанель</name>
+      <id>41</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -417,11 +421,11 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <name>ТабличнаяЧастьСтрокаПоиска</name>
-      <id>22</id>
+      <name>НАШ_СкидкиСтрокаПоиска</name>
+      <id>44</id>
       <extendedTooltip>
-        <name>ТабличнаяЧастьСтрокаПоискаРасширеннаяПодсказка</name>
-        <id>24</id>
+        <name>НАШ_СкидкиСтрокаПоискаРасширеннаяПодсказка</name>
+        <id>46</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -435,8 +439,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ТабличнаяЧастьСтрокаПоискаКонтекстноеМеню</name>
-        <id>23</id>
+        <name>НАШ_СкидкиСтрокаПоискаКонтекстноеМеню</name>
+        <id>45</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -454,11 +458,11 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <name>ТабличнаяЧастьСостояниеПросмотра</name>
-      <id>28</id>
+      <name>НАШ_СкидкиСостояниеПросмотра</name>
+      <id>50</id>
       <extendedTooltip>
-        <name>ТабличнаяЧастьСостояниеПросмотраРасширеннаяПодсказка</name>
-        <id>30</id>
+        <name>НАШ_СкидкиСостояниеПросмотраРасширеннаяПодсказка</name>
+        <id>52</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -472,8 +476,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ТабличнаяЧастьСостояниеПросмотраКонтекстноеМеню</name>
-        <id>29</id>
+        <name>НАШ_СкидкиСостояниеПросмотраКонтекстноеМеню</name>
+        <id>51</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -492,11 +496,11 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <name>ТабличнаяЧастьУправлениеПоиском</name>
-      <id>25</id>
+      <name>НАШ_СкидкиУправлениеПоиском</name>
+      <id>47</id>
       <extendedTooltip>
-        <name>ТабличнаяЧастьУправлениеПоискомРасширеннаяПодсказка</name>
-        <id>27</id>
+        <name>НАШ_СкидкиУправлениеПоискомРасширеннаяПодсказка</name>
+        <id>49</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -510,8 +514,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ТабличнаяЧастьУправлениеПоискомКонтекстноеМеню</name>
-        <id>26</id>
+        <name>НАШ_СкидкиУправлениеПоискомКонтекстноеМеню</name>
+        <id>48</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -525,8 +529,8 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>ТабличнаяЧастьРасширеннаяПодсказка</name>
-      <id>21</id>
+      <name>НАШ_СкидкиРасширеннаяПодсказка</name>
+      <id>43</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -540,8 +544,8 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ТабличнаяЧастьКонтекстноеМеню</name>
-      <id>20</id>
+      <name>НАШ_СкидкиКонтекстноеМеню</name>
+      <id>42</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -571,6 +575,10 @@
   <items xsi:type="form:FormField">
     <name>НАШ_Ответственный</name>
     <id>10</id>
+    <title>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
