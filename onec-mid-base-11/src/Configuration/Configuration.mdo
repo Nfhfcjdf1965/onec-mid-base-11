@@ -647,6 +647,9 @@
   <commonModules>CommonModule.НастройкаРазрешенийНаИспользованиеВнешнихРесурсовГлобальный</commonModules>
   <commonModules>CommonModule.НастройкаРазрешенийНаИспользованиеВнешнихРесурсовКлиент</commonModules>
   <commonModules>CommonModule.НастройкиПрограммыПереопределяемый</commonModules>
+  <commonModules>CommonModule.НАШ_ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.НАШ_ОбщегоНазначенияВызовСервера</commonModules>
+  <commonModules>CommonModule.НАШ_РаботаСФормами</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазы</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыБСП</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыВызовСервера</commonModules>
@@ -814,7 +817,6 @@
   <commonModules>CommonModule.ФайловаяСистемаСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ФайловаяСистемаСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ФизическиеЛицаКлиентСервер</commonModules>
-  <commonModules>CommonModule.НАШ_РаботаСФормами</commonModules>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApdexExport</xDTOPackages>
   <xDTOPackages>XDTOPackage.ApdexExport_1_0_0_2</xDTOPackages>
