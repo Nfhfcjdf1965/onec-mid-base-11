@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0338e32-b8a0-4b25-a65c-49b3396a5226">
+  <producedTypes>
+    <selectionType typeId="76b38684-fbf2-4359-9723-87a32c94327e" valueTypeId="0e8e82ea-c632-4009-9ff1-771dd5064b73"/>
+    <listType typeId="107f2271-6b0b-444f-a978-cd0009f3f742" valueTypeId="b346f5c9-18fb-4d5e-95ca-200f37b39de0"/>
+    <managerType typeId="f31cc229-fbf5-40e8-a4c8-1046f5da512e" valueTypeId="e6268c79-809a-42cb-ad0c-3a6826972499"/>
+    <recordSetType typeId="a754a7cd-6b51-4b7c-9e0e-8a837315a4e1" valueTypeId="3dc43a84-fe9e-4155-ac9a-d586dc9241b9"/>
+    <recordKeyType typeId="2c519792-3c4d-423e-bfe4-5bdd24e3068b" valueTypeId="4f00247e-1a15-4c96-9a60-704d81581c4a"/>
+    <recordType typeId="39a8c14b-a5fa-40a8-bc17-a28297fb5ba2" valueTypeId="5bdf140a-8aae-426b-b4b6-aee9a7c077fa"/>
+    <recordManagerType typeId="6967a83e-8c5f-4c65-8d46-3828a707bf84" valueTypeId="69748f83-a292-4a8d-be1b-836efa3ac068"/>
+  </producedTypes>
+  <name>НАШ_СкидкиКонтрагенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>НАШ скидки контрагенты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="37a8fa4f-dcd1-4721-8968-695abc697633">
+    <name>Скидка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скидка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e3e4467f-f8bb-4c94-8f41-4f2aede50b26">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

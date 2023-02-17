@@ -1138,6 +1138,7 @@
   <catalogs>Catalog.НАШ_ДолжностиКонтактныхЛиц</catalogs>
   <catalogs>Catalog.НАШ_КонтактныеЛица</catalogs>
   <documents>Document.ЗаказПокупателя</documents>
+  <documents>Document.НАШ_УстановкаСкидокКонтрагенты</documents>
   <documents>Document.ОплатаОтПокупателя</documents>
   <documents>Document.ОплатаПоставщику</documents>
   <documents>Document.ПоступлениеТоваровУслуг</documents>
@@ -1255,6 +1256,7 @@
   <informationRegisters>InformationRegister.НастройкиОчисткиФайлов</informationRegisters>
   <informationRegisters>InformationRegister.НастройкиПравОбъектов</informationRegisters>
   <informationRegisters>InformationRegister.НастройкиСинхронизацииФайлов</informationRegisters>
+  <informationRegisters>InformationRegister.НАШ_СкидкиКонтрагенты</informationRegisters>
   <informationRegisters>InformationRegister.НеудаленныеОбъекты</informationRegisters>
   <informationRegisters>InformationRegister.НомераОтсканированныхФайлов</informationRegisters>
   <informationRegisters>InformationRegister.ОбновлениеКлючейДоступаКДанным</informationRegisters>
