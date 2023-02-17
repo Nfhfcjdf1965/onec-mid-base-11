@@ -193,6 +193,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="c0a833bb-f81d-4939-8d4f-ecbf96663ec7">
+    <name>НАШ_КонтактноеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>НАШ контактное лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НАШ_КонтактныеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="d2984117-1a5a-45ca-bc97-adb070bd946d">
     <name>ФормаДокумента</name>
     <synonym>
