@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d476fba-841e-4cb1-a910-081d2bb0bda4">
+  <producedTypes>
+    <objectType typeId="2fede717-20a3-44ea-ade0-31e15bf69b91" valueTypeId="e2c892d1-c8a0-4c5c-879e-950e82c28f86"/>
+    <refType typeId="fcb5a299-c6c0-4bac-8ba3-1d112570b232" valueTypeId="90a25ac6-a8f7-47bf-945a-581b0a010883"/>
+    <selectionType typeId="83fa06b3-0957-454e-8832-70ffb1d4e9ec" valueTypeId="d9600f66-9450-4d0f-9896-dda38327f88f"/>
+    <listType typeId="a5b737a6-06f4-436a-b598-e722278fce41" valueTypeId="dc1a76b6-7c01-4337-a126-e78b59fb2df2"/>
+    <managerType typeId="73f69e61-709d-4f8d-91bc-dc64af11f129" valueTypeId="0493c663-e0fb-4a31-afe8-03e4830e5bbd"/>
+  </producedTypes>
+  <name>НАШ_ДолжностиКонтактныхЛиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>НАШ должности контактных лиц</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НАШ_ДолжностиКонтактныхЛиц.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.НАШ_ДолжностиКонтактныхЛиц.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Должность контактного лица</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Должности Контактных Лиц</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.НАШ_ДолжностиКонтактныхЛиц.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="cfca9540-8546-428a-bb67-a4bcab2bea3c">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
